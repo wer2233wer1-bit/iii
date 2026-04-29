@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Файл 1</title>
+
+    <style>
+           body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url("images/beautiful-watercolor-background_23-2148486848.avif");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Отступы между блоками */
+        h1,
+        p,
+        table,
+        .wrapper {
+            margin: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        .outer {
+            width: 350px;
+            height: 250px;
+            border: 2px solid black;
+            text-align: center;
+            font-size: 28px;
+        }
+
+        .inner {
+            width: 250px;
+            height: 100px;
+            border: 2px solid black;
+            margin: auto;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Контейнер для меню и контента */
+        .wrapper {
+            display: flex;
+        }
+
+        .menu {
+            width: 200px;
+            background: #eee;
+            padding: 10px;
+        }
+
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Задание 1</h1>
+    <table class="outer">
+        <tr>
+            <td>
+                Хочешь узнать точное время? Жми сюда!!!
+                <br><br>
+                <div class="inner">
+                    <a href="images/Снимок экрана 2026-04-29 084307.png">
+                        Здесь должна быть картинка часов
+                    </a>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <h1>Задание 2</h1>
+    <p>
+        В лесу родилась <a href="elochka.html">елочка</a><br>
+        В лесу она росла<br>
+        Зимой и летом стройная,<br>
+        Зеленая была<br>
+    </p>
+
+    <h1>Задание 3</h1>
+
+    <div class="wrapper">
+        <div class="menu">
+            <h3>Меню</h3>
+            <a href="#">Страница 1</a><br>
+            <a href="#">Страница 2</a><br>
+        </div>
+
+        <div class="content">
+            <h2>Контент</h2>
+            <p>Здесь основной блок</p>
+        </div>
+    </div>
+
+    <h1> Задание 4: Создание форм</h1>
+
+    <p>Выберите:
+        <select>
+            <option selected value="1">Первый</option>
+            <option value="2">Второй</option>
+            <option value="3">Третий</option>
+            <option value="4">Четвертый</option>
+        </select>
+    </p>
+
+
+    <h1>Задание 5: Создание управляющих полей</h1>
+
+    <!-- Добавьте в созданный вами HTML-документ следующий фрагмент: -->
+
+    <P>
+
+    <FORM action="URL" method="post">
+
+        <LABEL for="firstname">Имя: </LABEL>
+
+        <INPUT type="text" id="firstname"><BR>
+
+        <LABEL for="lastname">Фамилия: </LABEL>
+
+        <INPUT type="text" id="lastname"><BR>
+
+        <LABEL for="email">e-mail: </LABEL>
+
+        <INPUT type="text" id="email"><BR>
+
+        <INPUT type="radio" name="sex" value="Мужской">Мужской<BR>
+
+        <INPUT type="radio" name="sex" value="Женский">Женский<BR>
+
+        <INPUT type="submit" value="Отправить"> <INPUT type="reset">
+
+    </FORM>
+
+
+
+</body>
+
+</html>
